@@ -1,0 +1,8 @@
+[CVE ID]
+CVE-2024-57096
+[VERSION]
+wps office - < 19302
+[VULNERABILITY TYPE]
+XXE
+[Description of the vulnerability]
+An attacker can construct a malicious Excel document, and when the victim uses the vulnerable WPS Office to open the document, it can initiate a malicious network request in the victim's network, thereby breaking through the network isolation and launching an attack on vulnerable systems on the intranet
